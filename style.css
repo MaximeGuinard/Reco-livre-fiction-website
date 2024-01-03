@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Recoleta-Medium';
+  src: url('fonts/Recoleta-Medium.woff2') format('woff2'),
+       url('fonts/Recoleta-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: linear-gradient(62deg, rgba(237, 59, 73) 13%, rgba(195, 173, 119) 4%), linear-gradient(44deg, rgba(195, 173, 119) 39%, rgba(195, 173, 119) 18%), linear-gradient(118deg, rgba(84, 202, 242, 0.0315299727) 40%, rgba(247, 155, 187, 0.5) 54%), linear-gradient(58deg, rgba(195, 173, 119, 0.1614444357) 83%, rgba(195, 173, 119, 0.5) 23%);
+  background-blend-mode: normal, lighten, multiply, hard-light;
+    font-family: "Recoleta-Medium", sans-serif;
+}
+header {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #fca311;
+}
+
+p {
+  font-family: "Recoleta-Medium", sans-serif;
+}
+.title {
+  background-image:url("http://www.theimaginativeconservative.org/wp-content/uploads/2016/01/c6d2151a-c618-4d03-849f-595fc8135b8e.jpg");
+  height:25rem;
+  overflow:hidden;
+  width:85%;
+  color: #ED3B49;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:4rem;
+  background-size:100%;
+}
+.recommendDescription {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #060617;
+}
+.titleContent {
+  margin-top:5rem;
+  font-size: 4rem;
+  font-family:Bungee;
+  color:#f2f2f2;
+}
+#btn0 {
+  text-align:center;
+  margin-top:-11rem;
+}
+.recommendation{
+  text-align:center;
+  border-style:none;
+  font-family: "Recoleta-Medium", sans-serif;
+}
+.btn-info {
+  background-color:#1f3d7a;
+  border-style:none;
+  text-align:center;
+  font-family: "Recoleta-Medium", sans-serif;
+}
+.btn-info:hover {
+  text-align:center;
+  background-color:#862d86;
+  transition:background, .5s;
+  font-family: "Recoleta-Medium", sans-serif;
+}
+.col-center-block {  
+  text-align:center;
+    float: none;  
+    display: inline-block;  
+    margin-left: 44%;
+    margin-top:2rem;
+    margin-bottom:3rem;
+    font-family: "Recoleta-Medium", sans-serif;
+}  
+
+.startbutton {
+  margin-left:43%;
+}
+#btn1,#btn2,#btn3 {
+  text-align:center;
+  display:none;
+}
+#quest {
+  text-align:center;
+  margin-top:5rem;
+}
+#quest>h2 {
+  text-align:center;
+  font-family: "Recoleta-Medium", sans-serif;
+}
+.imgcenter {
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  font-family: "Recoleta-Medium", sans-serif;
+  text-align:center;
+  background-color:#8A77E8;
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /js/*
+Disallow: /css/*
+
+Sitemap: https://reco-livre-fiction.maxime-guinard.fr/sitemap.xml
+
+User-agent: CCBot
+Disallow: /
